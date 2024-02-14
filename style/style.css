@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-purple : #132b61;
+    --bg-header: #061333;
+}
+
+@font-face {
+    font-family: "popin-regular";
+    src: url("../Poppins_www.Downloadha.com/Poppins/PoppinsLatin-Regular.ttf");
+}
+@font-face {
+    font-family: "popin-bold";
+    src: url("../Poppins_www.Downloadha.com/Poppins/PoppinsLatin-Bold.ttf");
+}
+
+/* ############################################################################################ */
+
+main{
+    background-color: #f4f7fb;
+    font-family: "popin-regular";
+}
+
+.bg-gray{
+    background-color: #f4f7fb;
+
+}
+
+.text-14px{
+    font-size: 14px;
+}
+.text-12px{
+    font-size: 12px;
+}
+
+.text-10px{
+    font-size: 10px;
+}
+
+.w-img{
+    width: 40px;
+}
+
+.w-slider-img-css{
+    width: 300px;
+}
+
+.position-coin-css{
+    transform: translate(70px, -50px);
+}
+
+.btn-login , .btn-sign-in{
+    border-radius: 8px;
+    padding: 3px 12px;
+    font-weight: 600;
+}
+.btn-login-mobile , .btn-sign-in-mobile{
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btn-login , .btn-login-mobile{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: var(--main-purple);
+}
+
+.btn-sign-in ,.btn-sign-in-mobile{
+    border: none;
+    background-color: var(--main-purple);
+    color: #fff;
+}
+
+.btn-login:hover{
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+}
+
+.img-slider-css{
+    width: 200px;
+    height: 200px;
+}
+
+.p1-services{
+    font-weight: 600;
+    font-size: 14px;
+}
+.p2-services{
+    font-size: 12px;
+}
+
+.main-purple-bg{
+    background-color: var(--main-purple);
+}
+.bg-header-css{
+    background-color: var(--bg-header);
+}
+
+.main-purple-color {
+    color: var(--main-purple);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.facilities-hover-content{
+    transition: all 0.3s ease-in-out;
+}
+
+.facilities-hover:hover{
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+.facilities-hover:hover .facilities-hover-content{
+    
+    transform: translateY(-4px);
+}
+.facilities-hover-a{
+    display: none;
+    margin-top: -10px;
+}
+
+.facilities-hover:hover .facilities-hover-a{
+    display: block;
+}
+
+.row div i{
+    color: var(--main-purple);
+}
+.service-hover{
+    transition: all 0.3s ease-in-out;
+}
+
+.service-hover:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 20px darkgray;
+
+}
+
+.option-hover{
+    transition: all 0.3s ease-in-out;
+}
+
+.option-hover:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px darkgray;
+}
+
+.crypto-bg{
+    height: 25vh;
+    background-image: url(../image/bitcoin--cryptocurrency--abstract-background.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:991px) {
+    .service-hover{
+        margin: 0;
+    }
+}
+
+.margin-css{
+    margin: 50px 0;
+}
+
+.mt-css{
+    margin-top: 70px;
+}
+
+.more-div, .less-div{
+    cursor: pointer;
+}
+
+.footer-div{
+    padding-top: 40px;
+    background-color: rgb(236, 241, 249);
+}
+
+/* ######################### bootsrtap change #######################3 */
+
+/* .container-fluid{
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+} */
+
+
+.float__header{
+    float: right;
+}
